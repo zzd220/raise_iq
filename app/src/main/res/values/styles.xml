@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:alertDialogStyle">@style/dialog</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        　　<item name="android:layout_width">match_parent</item>
+        　　
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>
