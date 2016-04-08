@@ -36,14 +36,16 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <Button
                         android:id="@+id/bt_study"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:background="@drawable/studytable"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
                         android:text="书桌" />
 
                     <Button
@@ -115,11 +117,6 @@
                         android:layout_height="wrap_content"
                         android:text="面试" />
 
-                    <ProgressBar
-                        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/pb_interview"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -128,12 +125,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_a"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                 />
 
                 <TextView
                     android:id="@+id/tv_a_num"
@@ -165,12 +163,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_b"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                    />
 
                 <TextView
                     android:id="@+id/tv_b_num"
@@ -202,12 +201,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_c"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                    />
 
                 <TextView
                     android:id="@+id/tv_c_num"
@@ -239,12 +239,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_d"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                    />
 
                 <TextView
                     android:id="@+id/tv_d_num"
@@ -276,12 +277,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_e"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                    />
 
                 <TextView
                     android:id="@+id/tv_e_num"
@@ -313,12 +315,13 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp">
 
-                <View
+                <game.example.zzd.raise_iq.ThingsView
+                    android:id="@+id/tsv_f"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentTop="true"
-                    android:background="#7733ffff" />
+                    />
 
                 <TextView
                     android:id="@+id/tv_f_num"

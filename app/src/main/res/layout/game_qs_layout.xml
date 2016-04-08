@@ -3,60 +3,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/transparent"
     android:alpha="0.7"
+    android:background="@android:color/transparent"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="10dp"
         android:layout_margin="30dp"
         android:background="@drawable/corners_bg"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/tv_thing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="物品"
             android:singleLine="true"
+            android:text="面试题"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/tv_need_thing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="需要什么"
             android:singleLine="true"
+            android:text=""
             android:textColor="@android:color/black"
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/tv_nowhave"
+            android:id="@+id/tv_qs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="已经有："
             android:singleLine="true"
+            android:text=""
             android:textColor="@android:color/black"
             android:textSize="17sp" />
 
-        <TextView
-            android:id="@+id/tv_thingjieshao"
+        <EditText
+            android:id="@+id/et_ans"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="介绍"
+            android:numeric="integer"
+            android:text=""
             android:textColor="@android:color/black"
-            android:textSize="15sp" />
+            android:textSize="17sp" />
 
         <Button
             android:id="@+id/bt_addnow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="立刻购买" />
+            android:text="提交" />
 
     </LinearLayout>
 </FrameLayout>
